@@ -14,4 +14,6 @@ Testing request
 }
 ```
 
+Check current jobs in queue from `redis-cli` `LRANGE bull:email:wait 0 -1`
+
 ## To Do
